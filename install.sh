@@ -1,10 +1,10 @@
 #!/bin/sh
 
-ohmyzsh() {
+k9s() {
     echo "==========================================================="
-    echo "                  Install oh-my-zsh                        "
+    echo "                  Install k9s                              "
     echo "-----------------------------------------------------------"
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    go get -u github.com/derailed/k9s
 }
 
 zshrc() {
@@ -14,5 +14,5 @@ zshrc() {
     cat .zshrc > $HOME/.zshrc
 }
 
-# ohmyzsh
 zshrc
+k9s

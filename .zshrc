@@ -111,8 +111,8 @@ alias argocdpass='kubectl -n argocd get secret argocd-initial-admin-secret -o js
 # fi
 
 ## autocomplete for kubecolor
-source <(kubectl completion zsh)
-alias ku=kubecolor
-compdef kubecolor=kubectl
+# source <(kubectl completion zsh)
+# alias ku=kubecolor
+# compdef kubecolor=kubectl
 
 export KUBECONFIG=~/.kube/config
