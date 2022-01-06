@@ -4,7 +4,7 @@ oh-my-zsh() {
     echo "==========================================================="
     echo "                  Install oh-my-zsh                        "
     echo "-----------------------------------------------------------"
-    cat .zshrc > $HOME/.zshrc
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 }
 
 zshrc() {
