@@ -15,4 +15,4 @@ zshrc() {
 }
 
 zshrc
-k9s
+# k9s
