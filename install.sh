@@ -14,5 +14,5 @@ zshrc() {
     cat .zshrc > $HOME/.zshrc
 }
 
-ohmyzsh
+# ohmyzsh
 zshrc

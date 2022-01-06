@@ -72,7 +72,7 @@ ZSH_THEME="cloud"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git docker docker-compose kubectl terraform)
 
-source $ZSH
+source $ZSH/oh-my-zsh.sh
 # User configuration # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
