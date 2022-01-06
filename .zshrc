@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# alias ku=kubectl
+alias ku=kubectl
 alias tf=terraform
 alias lc=linode-cli
 alias changens='kubectl config set-context --current --namespace '
