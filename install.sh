@@ -1,11 +1,11 @@
 #!/bin/sh
 
-oh-my-zsh() {
-    echo "==========================================================="
-    echo "                  Install oh-my-zsh                        "
-    echo "-----------------------------------------------------------"
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-}
+# ohmyzsh() {
+#     echo "==========================================================="
+#     echo "                  Install oh-my-zsh                        "
+#     echo "-----------------------------------------------------------"
+#     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# }
 
 zshrc() {
     echo "==========================================================="
@@ -15,4 +15,4 @@ zshrc() {
 }
 
 zshrc
-oh-my-zsh
+# ohmyzsh
